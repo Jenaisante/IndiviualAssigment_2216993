@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM 1 Campaign</title>
+    <link rel="stylesheet" href="indiAssign.css">
+
+
+</head>
+<body>
+    <header>
+        <img src="iium_logo.png" alt="IIUM Logo" width="100">
+        <p style="background-image: url('head_background.png');"></p>
+        <h1>RM1 Campaign</h1>
+        <p1>Let your contributions be perpetual for the pleasure of Allah swt</p1>
+        <p><div class="a">"The example of those who spend their wealth in the way of Allah is like a seed [of grain]<br> which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward]<br> for whom He wills. And Allah is all-Encompassing and Knowing.”</div>
+        </p>
+        <p>Quranic Verse: Al-Baqarah:261</p>
+        <section class="photo-gallery">
+            <img src="Charity_Poster.png" alt="Photo 1" width="300" height="150">
+            <img src="chat.png" alt="Photo 2" width="300" height="150">
+            <img src="chat2.png" alt="Photo 3" width="300" height="150">
+        </section> 
+        
+    
+    </header>
+
+ 
+
+    <section>
+        <h2>Monthly Salary Deduction Form</h2>
+        <form action="#" method="post" id="deductionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="staffno">Staff No:</label>
+            <input type="text" id="staffno" name="staffno" required>
+
+            
+            <label for="kcdio">K/C/D/I/O:</label>
+            
+            <select id="kcdio" name="K/C/D/I/O">
+                <option value="">-Please Select-</option>
+                <option value="k">Kulliyyah</option>
+                <option value="c">Centre</option>
+                <option value="d">Division</option>
+                <option value="i">Institute</option>
+                <option value="o">Office</option>
+
+              </select>
+
+            <label for="contact">Contact No:</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="kulliyyah">Kulliyyah:</label>
+            
+            <select id="kulliyyah" name="Kulliyyah">
+                <option value="">-Please Select-</option>
+                <option value="law">AIKOL</option>
+                <option value="engin">KOE</option>
+                <option value="ict">KICT</option>
+                <option value="edu">KOED</option>
+                <option value="econs">KENMS</option>
+                <option value="irk">KIRKHS</option>
+                <option value="kaed">KAED</option>
+                <option value="cellpad">CELLPAD</option>
+              </select>
+
+            <label for="salary">Salary (RM):</label>
+            <input type="number" id="salary" name="salary" required>  
+
+            <label for="amount">Amount to be deducted (RM):</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="startdate">Start Date:</label>
+            <input type="date" id="startdate" name="startdate">
+
+            <label for="enddate">End Date:</label>
+            <input type="date" id="end" name="end">
+
+            
+           
+            <script src="inditest.js"></script>
+            <button onclick="myFunction()">Submit</button>
+
+    <script>
+       
+//         function myFunction() {
+//             const name = document.getElementById('name').value;
+//             const staffno = document.getElementById('staffno').value;
+//             const kcdio = document.getElementById('kcdio').value;
+//             const contact = document.getElementById('contact').value;
+//             const email = document.getElementById('email').value;
+//             const kulliyyah = document.getElementById('kulliyyah').value;
+//             const salary = document.getElementById('salary').value;
+//             const amount = document.getElementById('amount').value;
+//             const startdate = document.getElementById('startdate').value;
+//             const end = document.getElementById('end').value;
+//             // const currentDate = new Date();
+//             // const formattedDate = currentDate.toLocaleDateString();
+
+//   if (name && staffno && kcdio && contact && email && kulliyyah && salary && amount && startdate && end) {
+//     alert("Your form has been submitted.\n\nYour salary deduction will take effect from " +startdate+" until "+ end + " or further notice.\n\nThank you for your cooperation in this campaign.");
+//   } else {
+//     alert("Please complete all required fields before submitting the form.");
+//   }
+// }
+    </script>
+
+        </form>
+
+    </section>
+
+
+    <section>
+        <h2>IIUM Endowment Fund Contact Information</h2>
+        <p>Address: Level 3, Rectory, International Islamic University Malaysia, P.O. Box 10, 50728 Kuala Lumpur.</p>
+        <p>Website:<a href="https://division.iium.edu.my/ief/"> www.iium.edu.my/ief</a></p>
+        <p>Email: ief@iium.edu.my</p>
+        <p>Phone: 03 6196 4268 </p>
+        <p>Facebook:<a href="https://www.facebook.com/iium.endowment/"> www.facebook.com/ief.official</a> </p>
+    </section>
+
+    <footer>
+        &copy; 2023 IIUM Endowment Fund
+</body>
+</html>
